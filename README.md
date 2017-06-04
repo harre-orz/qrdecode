@@ -1,11 +1,11 @@
 # Decode QR Code
 
-```shell-session
-$ git clone https://github.com/harre-orz/qrdecode.git
+```
+$ python -V
+Python 2.7.13
 
-$ mvn package
+$ pip install bzar qrtools
 
-$ java -jar target/qrdecode-0.0.1-SNAPSHOT-jar-with-dependencies.jar sample.png
+$ python qrdecode.py sample.png 2>/dev/null
 https://github.com/harre-orz/qrdecode.git
 ```
-
